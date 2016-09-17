@@ -1,170 +1,55 @@
 
-# Site settings
+# SEO settings
+title: "Chris"
+title2: "Evett" # default: ""
+description: "Chris Evett's devops blog"
+keywords: "DevOps, blog, troubleshooting, continuous delivery"
+url: http://www.chrisevett.com # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
 
-# NB! Set your site's url, otherwise stuff will break :)
+repo: http://github.com/chrisevett/chrisevett.github.io
+twitter_username: "chris_evett"
+comments: true
 
-url: "http://www.chrisevett.com"
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
+source: ./
+destination: ./_site
 
-baseurl: /
-
-# Google tracking id
-
-google-tracking-id: ""
-
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
-
-force-https: True
-
-#############
-# HTML Head #
-#############
-
-lang: "en"
-author: "Chris Evett"
-title: "Chris Evett - Devopsing dangerously"
-description: "My name is chris and I'm here to write about things I spend lots of time on."
-keywords: "chris, evett, devops"
-favicon: "/img/favicon.ico"
-
-################
-# Header layout #
-################
-
-black-favicon: "/img/black-lab-glass.ico"
-
-background-img: "../img/intro-bg.jpg"
-
-##############################
-# Dynamic Text on the Header #
-##############################
-
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "It's not about the memes on your screen, its about the memes in your heart."
-
-me-img: "/img/jetpacktocat.png"
-
-##############################
-# Color the browser elements #
-##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
-
-################
-# Web app mode #
-################
-
-web-app-mode: True
-
-# Icons for Web App mode
-
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
-
-########
-# Blog #
-########
-
-enable-gesture-navigation: True
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-
-
-syntax-highlight: True
-
-
-###########
-# Contact #
-###########
-
-email: "chris.evett@gmail.com"
-
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "Chris is an Atlanta-based infrastructure engineer with an interest in automation, continuous improvement, and the dankest of memes."
-
-##################
-# Social Buttons #
-##################
-
-social:
-  - title: "twitter"
-    url: "https://twitter.com/chris_evett"
-  - title: "github"
-    url: "https://github.com/chrisevett"
-  - title: "rss"
-    url: "/feed.xml"
-
-############
-# 404 page #
-############
-
-404-img: "/img/labtocat.png"
-
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Sections shown in the index page
-
-pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
-
-# Exclusion list from the generated _site
-
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
-
-# Pagination path
-
-paginate_path: "blog/page:num/"
-
-# Enable minification SASS
-
+# Sass configuration
 sass:
-  style: compressed
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Chris Evett"
+  job      : "Infrastructure engineer and Devops enthusiast"
+  bio      : "Software is garbage and I'm the garbage man."
+  email    : chris.evett@gmail.com
+  url      : http://www.chrisevett.com
+  github   : http://github.com/chrisevett
+  twitter  : http://twitter.com/chris_evett
+  linkedin : https://www.linkedin.com/in/chris-evett-22954138
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@chris_evett"
 
 gems:
+  - bourbon
   - jekyll-paginate
-  - jemoji
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
