@@ -28,8 +28,8 @@ sass:
 # Author settings
 author:
   name     : "Chris Evett"
-  job      : "Infrastructure engineer and Devops enthusiast"
-  bio      : "Software is garbage and I'm the garbage man."
+  job      : "Devops enthusiast and Infrastructure engineer"
+  bio      : ""
   email    : chris.evett@gmail.com
   url      : http://www.chrisevett.com
   github   : http://github.com/chrisevett
