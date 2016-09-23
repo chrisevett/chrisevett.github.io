@@ -7,22 +7,21 @@ keywords: "velocity, new york, 2016, continuous delivery, devops"
 ---
 
 
-### process changes 
-hiring: make sure decisions are evidence based, and the evidence isnt coming from blog articles
-nonfunctional requirements such as automation ,security, quality/tests should be in the definition of done
-try and get some of this into our dev workflow https://alexgaynor.net/2015/may/27/tips-for-scaling-web-apps/
+### process changes   
+nonfunctional requirements such as automation ,security, quality/tests should be in the definition of done  
+try and get some of this into our dev workflow [https://alexgaynor.net/2015/may/27/tips-for-scaling-web-apps/]()
 
 
 ### tools to investigate 
-Linkerd Linkerd.io << make this a link
-Namerd
-HAProxy
-Sql server HA/ dark deployments
-Dev strategy for dark sql deployments (turn it on in the DB, then turn it on in the app)
-See if these are open source, dropbox tools Dbmanager, wheelhouse, naoru
-dh2i sql containers 
-DOCKER DOCKER DOCKER DOCKER DOCKER  
-docker jenkins pipeline. 
+Linkerd [https://linkerd.io/](Linkerd.io)  
+Namerd  
+HAProxy  
+Sql server HA/ dark deployments  
+Dev strategy for dark sql deployments (turn it on in the DB, then turn it on in the app)  
+See if these are open source, dropbox tools Dbmanager, wheelhouse, naoru  
+dh2i sql containers  
+DOCKER DOCKER DOCKER DOCKER DOCKER    
+docker jenkins pipeline.   
 
 ### things to read/ watch 
 kmod on scale dropbox youtube video  
@@ -33,7 +32,7 @@ netflix tech blog
 cli tool to set up build/deploy and also local dependencies for .net apps like netflix newt
 
 ### other todos
-Come up with a study syllabus for gaps in code (go and ruby) , linux (admin tasks, security) , tools (docker, mesos, vim, hashicorp, dc/os, etc) , networking(maybe ccna stuff?) in that order. Fuck Databases  I can know everything in a year. Check everything in as code.  
+Come up with a study syllabus for gaps in code (go and ruby) , linux (admin tasks, security) , tools (docker, mesos, vim, hashicorp, dc/os, etc) , networking(maybe ccna stuff?) in that order. Forget about databases Check everything in as code.  
 Come up with a plan to execute it. Remember small batches, small goals, MVP of learning. First milestone is the syllabus, second is starting the process. Find a study buddy.  
 
 
@@ -43,18 +42,20 @@ Come up with a plan to execute it. Remember small batches, small goals, MVP of l
 #### Limoncelli from stackoverflow  
 
 Apply devops principles to things that aren't SDLC
-Principles:  
-* The three ways  
-1. Systems thinking  
-2. Rapid Feedback loops  
-3. Kaizen culture/ encouragement of continuous improvment  
-* Minimum viable product delivered as soon as possible (definition of product is loose)  
-* Small batches
+Principles:    
 
-An example of a devops principle (small batch in this case) applied to something is the decision to give constructive feedbac early in a relationship instead of letting frustrations and differences accumulate.  
+
+- The three ways  
+- Systems thinking  
+- Rapid Feedback loops  
+- Kaizen culture/ encouragement of continuous improvment  
+- Minimum viable product delivered as soon as possible (definition of product is loose)  
+- Small batches  
+
+An example of a devops principle (small batch in this case) applied to something is the decision to give constructive feedback early in a relationship instead of letting frustrations and differences accumulate.  
 Also he used weightloss as an example. He set the goal to lose one pound per week instead of 100 lbs in a year.  Whenever there were failures he would analyze the situation and make corrections and the weightloss stuck.  
 
-System integrity is more important than the actual system. If you don't KNOW that it's working then the business isn't getting value from it.   
+System integrity is more important than the actual system. If you don't **know** that it's working then the business isn't getting value from it.   
 
 Automate acceptance tests and testing of nonfunctional requirements (eg infra testing. The infrastructure as code guy said the same thing). Does this apply to monitoring and test automation?  
 
@@ -66,18 +67,18 @@ The ended up using dns service discovery for their microservices. It was the mos
 
 #### The ex twitter guy talking about the layer 5 routing   
 The problem this guy was solving was that everyone had to configure timeouts/ retries/ etc for their web/db connections. The solution was to build a library that handled all layer 5/ session level config so the code could just worry about level 7 / app layer  
-Twitter library is finagle, look for a replacement  
+Twitter library is finagle    
 Linkerd is an open source version of this that might be useful, does service discovery and service management  
 Namerd is a routing service, does the balancing that sat on top of the haproxy balancers in the soundcloud talk (in general)  
 
 #### Dropbox databases
-All database code is done in code (something like entity framework) so nobody writes sql. Damn.
-They roll alot of their own tools in go 
+All database changes are done in code (something like entity framework) so nobody writes sql.  
+They roll alot of their own tools in go   
 MySql everything. They recently rolled out a MySql wrapper that abstracts the database details.  
 Sharding and splitting of databases when complexity becomes unwieldly  
 Tools for managing deployments: Dbmanager, wheelhouse, naoru, see if these are internal or open source  
 Sqlproxy, proxysql, whatever its called. Investigate and see if we can find something similar for mssql  
-There is some sort of container wizardry they do. Reconsider dh2i or whatever the sql analogue is  
+There is some sort of container wizardry they do. Reconsider dh2i or whatever the microsoft sql analogue is  
 
 #### netflix containers 
 Netflix originally baked their apps into vm's using spinnaker  
@@ -89,12 +90,12 @@ Use a container service on each AMI/vm that tells each container what to be.  Th
 
 New tool is a cli tool that sets up vagrant virtual box and dev dependencies. Remotely it set up jenkins job, spinnaker project, artifactory repo, etc  
 
-They test their libraries the way i shoult test infra. 
+They test their libraries the way i should test infrastructure. 
 
 #### Infrastructure as code guy 
 Nothing really new here. Seems like I have all the right ideas except for databases which he didnt cover .
 
-JFDI Cowboy vs beaurocrat ideology is toxic. Change should be encouraged but quality should be enforced. Lets be samurai with a code. 
+JFDI Cowboy vs beaurocrat ideology is toxic. Change should be encouraged but quality should be enforced.  
 
 Goal is the ability to make quick change with confidence.
 
@@ -102,23 +103,24 @@ Quality and compliance can be validated on every change. Good use case for inspe
 
 Set up chef agents to apply config changes continuously (in prod? maybe when we're mature)
 
-Immutable infra. All changes are a new server. A sane alternative is using containers and replacing them .  
+Immutable infrastructure. All changes are a new server. A sane alternative is using containers and replacing them .  
 
 
 ### ideas from last time, things i recapped on, ideas for current projects 
-20% of dev time should be committed to nonfunctional features eg infra, tests, monitoring
-Load balance and cluster internal apps 
-security: whenever someone has to log in to something make an effort to deprecate that need (use automation/self service to solve their problem)
+20% of dev time should be committed to nonfunctional features eg infra, tests, monitoring  
+Load balance and cluster internal apps   
+security: whenever someone has to log in to something make an effort to deprecate that need (use automation/self service to solve their problem)  
 
-#### OMS specific
-Dark deploy features
-Load balanced HA setup
-HA database setup so we can do automated deployments and dark releases
-Use replication
-In the oms publishing queue the redis cluster is only utilizing one node  
-Sharing/splitting databases that are tarded
-dh2i 
-jenkins chef and docker this shit 
-practice failing over monthly 
-goal should be 0 downtime  
+#### Things I can try
+Dark deploy features  
+Load balanced HA setup  
+HA database setup so we can do automated deployments and dark releases  
+Use replication  
+In the oms publishing queue the redis cluster is only utilizing one node    
+Sharing/splitting databases that are tarded  
+dh2i   
+jenkins chef and docker it   
+practice failing over monthly   
+goal should be 0 downtime    
+blue green turquoise for databases  
 
