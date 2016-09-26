@@ -116,7 +116,7 @@ Dark deploy features
 Load balanced HA setup  
 HA database setup so we can do automated deployments and dark releases  
 Use replication  
-In the oms publishing queue the redis cluster is only utilizing one node    
+In the publishing queue the redis cluster is only utilizing one node    
 Sharing/splitting databases that are tarded  
 dh2i   
 jenkins chef and docker it   
