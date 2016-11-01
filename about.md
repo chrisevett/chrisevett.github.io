@@ -8,9 +8,9 @@ Chris Evett - devops, automation, and continuous delivery
 ============
 
 ------------  
-Atlanta, Georgia
-Email:chris@chrisevett.com
-Github:[chrisevett](https://github.com/chrisevett)
+Atlanta, Georgia  
+Email:chris@chrisevett.com  
+Github:[chrisevett](https://github.com/chrisevett)  
 Twitter:@chris_evett
  
 -------------
