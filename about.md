@@ -19,29 +19,30 @@ Twitter:@chris_evett
 Experience
 ----------
 
-**Devops/Automation Engineer - Cardlytics** April 2015-present  
-- **Transformed a business-critical legacy app from a manual deployment requiring downtime to a continuous deployment with 0 downtime** 
-  - Replaced former application set up for which deployments were high risk and required hours of downtime and revenue impact for a single deployment with a highly available web server architecture
-  - Collaborated with development team to change database development practices to enable a "blue-green-turquoise" deployment strategy which completely eliminated downtime during deployments
-  - Moved from using 0 source control for configuration to source controlling all of the configuration for that application
-  - Moved from 0 deployment automation for this app to using chef for config management and deployment and test-kitchen for test automation of chef code.   
-- **Introduced test automation to deployment process** 
-	- Investigated and implemented a test automation workflow involving test-kitchen, chefspec, and inspec for unit testing and functional testing of chef code.
-	- Implemented custom plugins for inspec and test-kitchen to support our specific infrastructure.
-	- Greatly increased speed of deployment code implementation by introducting TDD-style workflow to the team.  
-- **Source controlled and containerized CI server** 
-	- Migrated on prem CI server off of manually configured 'snowflakes' that had to be restored from backups in the event of catastrophe, to containerized applications where 100% of configuration was source controlled.  
-- **Provided self-service environments for manual and automated testing** 
-	- Designed and implemented self-service environment portal using rundeck, ansible, and octopus deploy. 
-	- Incorporated the portal into the CI process via api calls for use during automated test runs which built quality in to the release process, and eliminated inconsistencies between dev,test,and production environments.     
-- **Built health check for test environments for common issues** 
-	- Using ansible, added monitoring for configuration drift in test environments and made it accessible via a lita.io chat bot so that in many cases app developers and testers no longer had to wait for help when they ran into configuration problems that were blocking their dev/test efforts.   
-- **Shored up ipaddress management practices** 
+**Devops/Automation Engineer - Cardlytics** April 2015-present    
+
+**Transformed a business-critical legacy app from a manual deployment requiring downtime to a continuous deployment with 0 downtime**   
+  - Replaced former application set up for which deployments were high risk and required hours of downtime and revenue impact for a single deployment with a highly available web server architecture  
+  - Collaborated with development team to change database development practices to enable a "blue-green-turquoise" deployment strategy which completely eliminated downtime during deployments  
+  - Moved from using 0 source control for configuration to source controlling all of the configuration for that application  
+  - Moved from 0 deployment automation for this app to using chef for config management and deployment and test-kitchen for test automation of chef code.     
+**Introduced test automation to deployment process**   
+	- Investigated and implemented a test automation workflow involving test-kitchen, chefspec, and inspec for unit testing and functional testing of chef code.  
+	- Implemented custom plugins for inspec and test-kitchen to support our specific infrastructure.  
+	- Greatly increased speed of deployment code implementation by introducting TDD-style workflow to the team.    
+**Source controlled and containerized CI server**  
+	- Migrated on prem CI server off of manually configured 'snowflakes' that had to be restored from backups in the event of catastrophe, to containerized applications where 100% of configuration was source controlled.    
+**Provided self-service environments for manual and automated testing**   
+	- Designed and implemented self-service environment portal using rundeck, ansible, and octopus deploy.   
+	- Incorporated the portal into the CI process via api calls for use during automated test runs which built  quality in to the release process, and eliminated inconsistencies between dev,test,and production environments.       
+**Built health check for test environments for common issues**    
+	- Using ansible, added monitoring for configuration drift in test environments and made it accessible via a lita.io chat bot so that in many cases app developers and testers no longer had to wait for help when they ran into configuration problems that were blocking their dev/test efforts.     
+**Shored up ipaddress management practices**  
 	- Migrated ip address management for on prem vsphere host from a spreadsheet with tabs for each subnet to an open source tool with an API. This tool was later utilized for dynamic assignment/release of static IP addresses during environment automation.  
-- **Training and evangelism** 
-	- Led efforts to train engineers and business analysts on automation tooling, source control best practices, and test automation for scripting (pester/rspec/test kitchen).
-	- Attended devops conferences and meetups.
-	- Lunch and learns and demos of devops tools and principles
+**Training and evangelism**  
+	- Led efforts to train engineers and business analysts on automation tooling, source control best practices, and test automation for scripting (pester/rspec/test kitchen).  
+	- Attended devops conferences and meetups.  
+	- Lunch and learns and demos of devops tools and principles  
 	- Organized social activities such as LAN parties and game nights.  
      
   
