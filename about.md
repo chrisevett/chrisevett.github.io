@@ -12,7 +12,7 @@ Atlanta, Georgia
 Email:chris@chrisevett.com
 Github:[chrisevett](https://github.com/chrisevett)
 Twitter:@chris_evett
--------------------     ----------------------------
+-------------
 
 
 Experience
