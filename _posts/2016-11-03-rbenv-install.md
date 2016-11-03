@@ -3,7 +3,7 @@ layout: post
 title: "rbenv for all users"
 comments: true
 description: "rbenv dev"
-keywords: "ruby","dev environment"
+keywords: "ruby dev environment"
 ---
 
 ## Installing rbenv for all users the right way 
