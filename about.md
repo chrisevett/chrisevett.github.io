@@ -4,17 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Chris Evett - devops, automation, and continuous delivery
+Chris Evett - automation, devops, kaizen, and continuous everything
 ============
 
 ------------  
 Atlanta, Georgia  
-Email:chris@chrisevett.com  
+Email:chris.evett@gmail.com  
 Github:[chrisevett](https://github.com/chrisevett)  
 Twitter:@chris_evett
  
 -------------
-
 
 Experience
 ----------
@@ -28,6 +27,7 @@ Experience
   - Moved from 0 deployment automation for this app to using chef for config management and deployment and test-kitchen for test automation of chef code.     
 **Introduced test automation to deployment process**   
 	- Investigated and implemented a test automation workflow involving test-kitchen, chefspec, and inspec for unit testing and functional testing of chef code.  
+	- Contributed to and created OSS projects to support automation pipeline **See my github at the top :)**  
 	- Implemented custom plugins for inspec and test-kitchen to support our specific infrastructure.  
 	- Greatly increased speed of deployment code implementation by introducting TDD-style workflow to the team.    
 **Source controlled and containerized CI server**  
@@ -64,16 +64,17 @@ Technical skills
 --------------------
 
 #### Programming Languages  
-Proficient in **C#**, **Powershell**, **Ruby**, **T-SQL**  
-Basic knowledge of **Bash**, **C**, **C++**, **Python**, **VBScript**    
+Good at **C#**, **Powershell**, **Ruby**, **T-SQL**  
+Pretty OK at **Bash**, **C**, **C++**, **Python**, **VBScript**    
+If you're hiring please give me a reason to learn **go**.  
 
 #### Tools/ Concepts  
 **Configuration Management:** chef, ansible, powershell DSC  
-**Automation tools:** rundeck, vagrant, terraform, packer  
+**Environment automation:** rundeck, vagrant, terraform, packer  
 **CI/CD:** jenkins, teamcity, bamboo, travis ci, appveyor, octopus deploy  
-**Test Automation:** test kitchen, rspec, inspec, chefspec, nunit  
-**OS:** Linux and windows. I'm better at windows for now.   
-**Etc:** git, bitbucket server, github, vim, artifactory, docker, wix  
+**Test Automation:** test kitchen, rspec, inspec, chefspec, nunit, selenium    
+**OS:** Linux (RHEL/Debian) and windows (2003+). I'm better at windows for now but I'm really good at google.     
+**Etc:** git, bitbucket server, github, vim, artifactory, docker, wix, IIS, redis, azure service fabric, chatops      
 
 ### Other accomplishments  
 
