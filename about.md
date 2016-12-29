@@ -49,7 +49,8 @@ Experience
   
 **Software Engineer - Omnico Group (formerly Matra Systems) 2012-2015**
 
-- Overhauled windows installers (custom batch scripts and WiX/msi).  
+- Overhauled windows installers (batch/VBS/Jscript and WiX/msi).  
+- Maintained legacy point of sale application
 - Lots of boring projects that taught me how not to develop software and made me realize the importance of automation, quality, and communication. 
   
 
@@ -66,15 +67,15 @@ Technical skills
 #### Programming Languages  
 Good at **C#**, **Powershell**, **Ruby**, **T-SQL**  
 Pretty OK at **Bash**, **C**, **C++**, **Python**, **VBScript**    
-If you're hiring please give me a reason to learn **go**.  
+
 
 #### Tools/ Concepts  
 **Configuration Management:** chef, ansible, powershell DSC  
 **Environment automation:** rundeck, vagrant, terraform, packer  
 **CI/CD:** jenkins, teamcity, bamboo, travis ci, appveyor, octopus deploy  
 **Test Automation:** test kitchen, rspec, inspec, chefspec, nunit, selenium    
-**OS:** Linux (RHEL/Debian) and windows (2003+). I'm better at windows for now but I'm really good at google.     
-**Etc:** git, bitbucket server, github, vim, artifactory, docker, wix, IIS, redis, azure service fabric, chatops      
+**OS:** Linux (RHEL/Debian) and windows (2003+).
+**Etc:** git, bitbucket server, github, vim, artifactory, docker, nginx, SQL Server, Redgate, wix, IIS, redis, azure service fabric, chatops
 
 ### Other accomplishments  
 
