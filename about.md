@@ -38,7 +38,7 @@ Experience
 **Built health check for test environments for common issues**    
 	- Using ansible, added monitoring for configuration drift in test environments and made it accessible via a lita.io chat bot so that in many cases app developers and testers no longer had to wait for help when they ran into configuration problems that were blocking their dev/test efforts.     
 **Shored up ipaddress management practices**  
-	- Migrated ip address management for on prem vsphere host from a spreadsheet with tabs for each subnet to an open source tool with an API. This tool was later utilized for dynamic assignment/release of static IP addresses during environment automation.  
+	- Migrated ip address management for on prem vsphere instance from a spreadsheet with tabs for each subnet to an open source tool with an API. This tool was later utilized for dynamic assignment/release of static IP addresses during environment automation.  
 **Training and evangelism**  
 	- Led efforts to train engineers and business analysts on automation tooling, source control best practices, and test automation for scripting (pester/rspec/test kitchen).  
 	- Attended devops conferences and meetups.  
