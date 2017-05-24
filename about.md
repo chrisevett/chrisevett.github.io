@@ -19,7 +19,7 @@ Experience
 ------------
 
 
-#Devops/Automation Engineer - Cardlytics 
+# Devops/Automation Engineer - Cardlytics 
 *April 2015-present*      
   
 **Worked with architecture team to engineer scalable, anti-fragile cloud application**     
@@ -66,14 +66,14 @@ Experience
 	- Lunch and learns and demos of devops tools and principles  
 	- Organized social activities such as LAN parties and game nights.  
   
-#Software Engineer - Omnico Group (formerly Matra Systems) 
+# Software Engineer - Omnico Group (formerly Matra Systems) 
 *2012-2015*  
 	- Overhauled windows installers (batch/VBS/Jscript and WiX/msi).  
 	- Maintained legacy point of sale application
 	- Lots of boring projects that taught me how not to develop software and made me realize the importance of automation, quality, and communication. 
   
 
-#QA Engineer - Clarity Commerce (formerly Matra Systems) 
+# QA Engineer - Clarity Commerce (formerly Matra Systems) 
 *2011-2012*  
 	- Developed a DSL-driven test application for automating functional tests. This turned into a nightly process and a de-facto standard for whether or not a feature was ready to ship. 
 	- Provided on-site support for testers and product implementation.   
