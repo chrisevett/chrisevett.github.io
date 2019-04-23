@@ -13,7 +13,7 @@ Atlanta, GA
 678-551-5568    
 chris.evett@gmail.com  
 [https://github.com/chrisevett](https://github.com/chrisevett)   
-[https://www.linkedin.com/in/chris-evett-22954138/](https://www.linkedin.com/in/chris-evett-22954138/)
+[https://www.linkedin.com/in/chris-evett-22954138/](https://www.linkedin.com/in/chris-evett-22954138/)  
 -------------------     ----------------------------
 
 Experience
@@ -113,7 +113,7 @@ Technical skills
 ----------
 
 #### Programming Languages  
-Good at **golang**, **python**, **C#**, **Bash**
+Good at **golang**, **python**, **C#**, **Bash**  
 Pretty OK at **C**, **C++**, **Python**, **Powershell**, **Ruby**        
 
 #### Tools/ Concepts  
@@ -134,5 +134,4 @@ Pretty OK at **C**, **C++**, **Python**, **Powershell**, **Ruby**
 Education
 ---------
 
-2009
-:   **BS Biology**; University of West Georgia
+**BS Biology, mathematics minor**; University of West Georgia
