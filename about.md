@@ -117,9 +117,11 @@ Good at **golang**, **python**, **C#**, **Bash**
 Pretty OK at **C**, **C++**, **Python**, **Powershell**, **Ruby**        
 
 #### Tools/ Concepts  
-**Configuration Management:** kops, terraform, vagrant, packer, chef, ansible  
-**CI/CD:** droneio, spinnaker, travisci, jenkins, appveyor, octopus deploy  
-**Etc:** kubernetes, linux, git, prometheus, grafana, vim, regular expressions, docker, nginx, postgresql, mysql, SQL Server, Redgate, IIS, redis, chatops, visual studio, windows server    
+**Configuration Management:** kops, terraform, vagrant, packer, chef, ansible    
+**CI/CD:** droneio, spinnaker, travisci, jenkins, appveyor, octopus deploy    
+**Cloud and OS:** AWS, GCP, debian, ubuntu, centos, windows server 2008+  
+**Data:** postgresql, mysql, SQL Server, sqlite, redis, Redgate, flywaydb  
+**Etc:** kubernetes, git, prometheus, grafana, vim, regular expressions, docker, nginx, IIS, redis, chatops, visual studio, networking  
 
 ### Other accomplishments  
 
